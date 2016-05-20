@@ -22,7 +22,7 @@ public class BacteriaPropertyListAdapter extends RecyclerView.Adapter<BacteriaPr
         this.propertyValueList = propertyValueList;
         this.context=context;
     }
-
+        //testing
     @Override
     public BacteriaPropertyListViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemLayoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_row_of_bacteria_propertylist, null);
