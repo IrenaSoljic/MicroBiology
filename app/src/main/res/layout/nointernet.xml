@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_color" >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Using App for the first time??? Sorry to inform that app needs internet connection for the first time and for update"
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv"
+            android:text="Please check your internet connection."
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/dismiss"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:background="@color/primaryColor"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="DISMISS"
+
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

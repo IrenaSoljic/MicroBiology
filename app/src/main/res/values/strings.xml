@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name"> Microbial Identification</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="description_of_app">This application is specially designed for MicroBiology Students which helps to identify bacteria on the basis of morphological and biochemical characteristics.</string>
+    <string name="developed_by"><u>Developed By</u></string>
+    <string name="title_activity_bacteria_list_activity">All Bacteria List</string>
+    <string name="title_activity_bacteria_property_list">BacteriaPropertyList</string>
+    <string name="Developer"><a href="http://www.tamanneupane.com.np/">Taman Neupane</a></string>
+    <string name="concept_by"><u>Concept By</u></string>
+    <string name="conceptName"><u>Sagar Aryal</u></string>
+</resources>

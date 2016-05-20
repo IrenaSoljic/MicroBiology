@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:text="@string/description_of_app"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/concept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+
+            android:text="@string/concept_by"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/concept"
+            android:layout_centerHorizontal="true"
+
+            android:text="@string/conceptName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primaryColorDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="@string/developed_by"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/developer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Developer"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:autoLink="all"
+            android:padding="3dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primaryColorDark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dismissabout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/developer_name"
+            android:layout_marginTop="10dp"
+            android:background="@color/primaryColor"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="DISMISS"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
